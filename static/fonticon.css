@@ -6,13 +6,21 @@
   url('./fonts/iconfont.ttf?t=1479975012646') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
   url('./fonts/iconfont.svg?t=1479975012646#iconfont') format('svg'); /* iOS 4.1- */
 }
-
+/* 下为 0831 添加的 */
 @font-face {font-family: "iconfont";
   src: url('./fonts/iconfont-new.eot?t=1535794433809'); /* IE9*/
   src: url('./fonts/iconfont-new.eot?t=1535794433809#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
   url('./fonts/iconfont-new.ttf?t=1535794433809') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
   url('./fonts/iconfont-new.svg?t=1535794433809#iconfont') format('svg'); /* iOS 4.1- */
+}
+/* 下为 1006 添加的 */
+@font-face {font-family: "iconfont";
+  src: url('./fonts/iconfont1006.eot?t=1538828128499'); /* IE9*/
+  src: url('./fonts/iconfont1006.eot?t=1538828128499#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAWgAAsAAAAACLQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFY8mkg1Y21hcAAAAYAAAABWAAABhmWe0RVnbHlmAAAB2AAAAdMAAAKY3rb6R2hlYWQAAAOsAAAALwAAADYS3dS9aGhlYQAAA9wAAAAcAAAAJAffA4VobXR4AAAD+AAAAAwAAAAMDAEAAGxvY2EAAAQEAAAACAAAAAgA5AFMbWF4cAAABAwAAAAfAAAAIAEWAKJuYW1lAAAELAAAAUUAAAJtPlT+fXBvc3QAAAV0AAAAKgAAADu797+keJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2BkYWCcwMDKwMHUyXSGgYGhH0IzvmYwYuRgYGBiYGVmwAoC0lxTGByeqTxzZm7438AQw9zA0AAUZgTJAQDlEgxKeJztkMERgCAMBDeAPBzL8OHDLmjCl+XTBl6CduHNbC65wCfAAmRxigJ2Y7gupRZ5Zo28xJsqN1LfexsDPpdMuypP/s8qv7aoxzslv9Yk+jbBHohDDuIAAHicfVIxb9NAFH5fnTrEwm7txLbkOGkdO7YCosVuch5QSisGJBZou6AWMYCYEFO7kyFrx5aBAQkBf4CJBSEW/gALC+JHMMDAmTtfkBgQ0ul9d+/73vfu9I5aRNWsAW1Gq7ROOe3SPj2gY5rTGREiC027j62oYKW9gawtzpHAyTbKqA8f0UCXAj8SCSGIhSCOBukUY1YLhoKY2OM0Wzj5mqrsoaPXTsuqIMu3ZRfPz91Fi38lastc+8hfd2Mg7uJI4TJCtyIvBEIP5Ib49Zm/CiQV4J7CRi1xez23FvAXgkiS4I9M0qjpStLaJ9gmf2TaEIjnCv971mbChb+RnjgUnvzclddxKwV8N5GsutJhkPBnXhh6XJHvVbImlejxoko96Ydp26bpOOZb1fDvbR2JqCHm+E17qa3TBbIpoynRcENMofA6ejbQO17Bxmk71tNykrISrPDRlzOAhXYdfVf3yq2CXQfYOEOKGyPG9hkbWY4TOs7t+cktDWsj3Owf9NC0VlYs/nXz7tGqwd8l4vmXD+bpzmYXTaPFfxpPUO4xtlc+dbqOWPw77j88nVzLsBMEFVnJpaHJv+TTpQot/mGQxKd3iqUrVwNcNNYMkPiTvwFVS2+EAHicY2BkYGAA4i2x8eLx/DZfGbhZGEDg+r0TCQj6fwMLI3MDkMvBwAQSBQAzxwsDAHicY2BkYGBu+N/AEMMCZDEwAEkwjQSYAUc1Am4EAAAABAEAAAQAAAAAAAAAAOQBTHicY2BkYGBgZpjGwMkAAkxAzAWEDAz/wXwGABgQAbkAeJxlj01OwzAQhV/6B6QSqqhgh+QFYgEo/RGrblhUavdddN+mTpsqiSPHrdQDcB6OwAk4AtyAO/BIJ5s2lsffvHljTwDc4Acejt8t95E9XDI7cg0XuBeuU38QbpBfhJto41W4Rf1N2MczpsJtdGF5g9e4YvaEd2EPHXwI13CNT+E69S/hBvlbuIk7/Aq30PHqwj7mXle4jUcv9sdWL5xeqeVBxaHJIpM5v4KZXu+Sha3S6pxrW8QmU4OgX0lTnWlb3VPs10PnIhVZk6oJqzpJjMqt2erQBRvn8lGvF4kehCblWGP+tsYCjnEFhSUOjDFCGGSIyujoO1Vm9K+xQ8Jee1Y9zed0WxTU/3OFAQL0z1xTurLSeTpPgT1fG1J1dCtuy56UNJFezUkSskJe1rZUQuoBNmVXjhF6XNGJPyhnSP8ACVpuyAAAAHicY2BigAAuBuyAmZGJkZmRhYG7uCw9OSexuDgzrZK5JDGdgQEAQeoGFAAA') format('woff'),
+  url('./fonts/iconfont1006.ttf?t=1538828128499') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/iconfont1006.svg?t=1538828128499#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -56,7 +64,7 @@
 
 .icon-moreunfold:before { content: "\e6a6"; }
 
-.icon-more:before { content: "\e6a7"; }
+/* .icon-more:before { content: "\e6a7"; } */
 
 .icon-refresh:before { content: "\e6aa"; }
 
@@ -143,3 +151,7 @@
 .icon-menu:before { content: "\e7ce"; }
 
 .icon-time:before { content: "\e735"; }
+/* 下为 1006 添加的 */
+.icon-svgclassify:before { content: "\e643"; }
+
+.icon-tag:before { content: "\e624"; }
